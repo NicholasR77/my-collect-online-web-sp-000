@@ -8,3 +8,7 @@ def collect(array)
     counter += 1
   end
 end
+
+collect(test_arr){|element| puts "This is the current element."}
+
+ 
