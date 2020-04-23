@@ -4,8 +4,13 @@ def collect(array)
   counter = 0
 
   while counter < array.length
-    yield(array[counter])
-    counter += 1
+    if block_given?
+      yield(array[counter])
+      counter += 1
+    else
+        puts "Please provide a block."
+    end
+
   end
 end
 
