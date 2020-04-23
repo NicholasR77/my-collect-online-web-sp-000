@@ -10,7 +10,7 @@ def my_collect(array)
     else
         puts "Please provide a block."
     end
-
+    array
   end
 end
 
