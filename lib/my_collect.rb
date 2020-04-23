@@ -14,4 +14,4 @@ def my_collect(array)
   end
 end
 
-y_collect(test_arr){|element| "This is the current element: #{element}"}
+my_collect(test_arr){|element| "This is the current element: #{element}"}
