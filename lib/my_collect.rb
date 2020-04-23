@@ -10,5 +10,3 @@ def collect(array)
 end
 
 collect(test_arr){|element| puts "This is the current element."}
-
- 
