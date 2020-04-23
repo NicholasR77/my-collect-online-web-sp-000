@@ -1,6 +1,6 @@
 test_arr = ["test1", "test2"]
 
-def collect(array)
+def my_collect(array)
   counter = 0
 
   while counter < array.length
@@ -14,4 +14,4 @@ def collect(array)
   end
 end
 
-collect(test_arr){|element| "This is the current element: #{element}"}
+y_collect(test_arr){|element| "This is the current element: #{element}"}
