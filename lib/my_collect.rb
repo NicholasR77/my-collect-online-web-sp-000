@@ -1,3 +1,3 @@
-def collect(arg)
+def collect(array)
   something
 end
