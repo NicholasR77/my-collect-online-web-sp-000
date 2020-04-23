@@ -14,5 +14,3 @@ def my_collect(array)
       puts "Please provide a block."
   end
 end
-
-my_collect(test_arr){|element| "This is the current element: #{element}"}
