@@ -1,3 +1,5 @@
+test_arr = ["test1", "test2"]
+
 def collect(array)
   counter = 0
 
