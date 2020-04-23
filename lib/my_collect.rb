@@ -4,13 +4,15 @@ def my_collect(array)
   counter = 0
 
   while counter < array.length
+
+    new_array = []
     if block_given?
-      yield(array[counter])
+      new_array.push(yield(array[counter])
       counter += 1
     else
         puts "Please provide a block."
     end
-    array
+    arrays
   end
 end
 
