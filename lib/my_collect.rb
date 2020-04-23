@@ -9,4 +9,4 @@ def collect(array)
   end
 end
 
-collect(test_arr){|element| puts "This is the current element."}
+collect(test_arr){|element| puts "This is the current element: #{element}"}
