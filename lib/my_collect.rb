@@ -6,7 +6,7 @@ def my_collect(array)
 
   if block_given?
     while counter < array.length
-      new_array.push(yield(array[counter])
+      new_array.push(yield(array[counter]))
       counter += 1
     end
     new_array
